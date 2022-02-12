@@ -191,7 +191,7 @@ def run_load_plotter(servers, assignment_method):
 		plt.title('Load vs. Time for Servers')
 		plt.axis([0, 1, 0, 0.6])
 
-	plt.savefig('plots/SmallSystemWithFlows/' + assignment_method + '/LoadVsTimeForServers.png')
+	plt.savefig('/content/LoadBalancerSimulator/plots/SmallSystemWithFlows/' + assignment_method + '/LoadVsTimeForServers.png')
 	plt.clf()
 
 def run_mean_and_stdev_plotter(servers, assignment_method):
@@ -220,7 +220,7 @@ def run_mean_and_stdev_plotter(servers, assignment_method):
 	plt.title('Mean and Stdev of Load vs. Time for Servers')
 	plt.axis([0, 1, 0, 0.6])
 
-	plt.savefig('plots/SmallSystemWithFlows/' + assignment_method + '/MeanAndStdevLoadVsTimeForServers.png')
+	plt.savefig('/content/LoadBalancerSimulator/plots/SmallSystemWithFlows/' + assignment_method + '/MeanAndStdevLoadVsTimeForServers.png')
 	plt.clf()
 
 def run_consistency_check(servers):
@@ -299,8 +299,3 @@ def run_simulation(assignment_method):
 
 for method in assignment_methods:
 	run_simulation(method)
-
-
-	
-
-
