@@ -4,8 +4,8 @@ A program that simulates packets being sent from clients through load-balancers 
 
 # Quickstart Instructions
 
-To pull the codebase from github and run the simulation, <br/>
-<code>git clone https://github.com/AKlyuev/LoadBalancerSimulator.git</code> <br/>
+To pull the codebase from github and run the simulation in colab, <br/>
+<code>git clone https://github.com/wdrdg/LoadBalancerSimulator.git</code> <br/>
 <code>cd LoadBalancerSimulator/ </code> <br/>
 <code>python3 main.py </code> <br/>
 
